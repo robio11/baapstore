@@ -14,8 +14,8 @@ const Dropbenefits = () => {
           --- Earn 300% Profits on All Orders --- Ship @ Flat 39rs ---{' '}
         </div>
       </Marquee>
-      <div className="flex flex-col mt-4 max-w-4xl items-center justify-center">
-        <div className="flex items-center justify-center">
+      <div className="flex flex-col mt-4 items-center justify-center">
+        <div className="flex items-center justify-center max-w-4xl">
           <h1 className="flex text-3xl font-bold">
             4 in 1 Dropshipping with 25+ Benefits
           </h1>

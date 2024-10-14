@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Home } from './components/Home'
 import HereSection from './components/HereSection';
 import Signup from './auth/Signup';
+import Demostores from './components/Demostores';
 
 function App() {
   const appRouter = createBrowserRouter([
@@ -12,6 +13,10 @@ function App() {
         {
           path: '/',
           element: <HereSection />,
+        },
+        {
+          path: '/demo',
+          element: <Demostores />,
         },
       ],
     },
